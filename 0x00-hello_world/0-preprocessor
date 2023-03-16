@@ -1,7 +1,2 @@
 #!/bin/bash
-if [ -z "$CFILE" ]; then
-  echo "Error: CFILE variable is not set."
-  exit 1
-fi
-cpp "$CFILE" > c
-tail c
+cpp $CFILE > c
