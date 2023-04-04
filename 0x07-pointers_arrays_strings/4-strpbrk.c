@@ -16,10 +16,10 @@ for (p = accept; *p; p++)
 {
 if (*s == *p)
 {
-return s;
+return (s);
 }
 }
 s++;
 }
-return NULL;
+return (NULL);
 }
