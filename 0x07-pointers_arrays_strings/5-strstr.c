@@ -22,7 +22,7 @@ p1++;
 p2++;
 }
 if (*p2 == '\0')
-return start;
+return (start);
 }
 return (NULL);
 }
